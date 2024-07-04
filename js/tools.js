@@ -272,7 +272,7 @@ drawLandsDatatable = function () {
                                     <input type="button" id="dateButton" value="GO"/>\n\
                                     </div>\n\
                                     <div id="contProfit">\n\
-                                    <label id="cPercentageLabel">C61 Profit Percentage</label>\n\
+                                    <label id="cPercentageLabel">C65 Profit Percentage</label>\n\
                                     <select name="contPercentage" id="contPercentage">\n\
                                     <option value="0">0%</option>\n\
                                     <option value="10">10%</option>\n\
@@ -286,7 +286,7 @@ drawLandsDatatable = function () {
                                     <option value="90">90%</option>\n\
                                     <option value="100">100%</option>\n\
                                     </select>\n\
-                                    <input type="text" id="cProfit" value="" placeholder="C61 Total LOKA Profit" readonly/>\n\
+                                    <input type="text" id="cProfit" value="" placeholder="C65 Total LOKA Profit" readonly/>\n\
                                     </div>\n\
                                     </div>');
                 }
