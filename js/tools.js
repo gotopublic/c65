@@ -401,7 +401,6 @@ redrawLandsDatatable = function (fromDate, toDate, earnedLoka) {
         }
     }
 };
-
 isString = function (val) {
     try {
         return typeof val === 'string' || val instanceof String ? true : false;
@@ -410,6 +409,10 @@ isString = function (val) {
     }
     return false;
 };
+isObject = function (val) {
+    return val instanceof Object && val.constructor === Object;
+};
+
 isEmpty = function (data) {
     if (data === null || typeof data === 'undefined') {
         return true;
